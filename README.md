@@ -6,7 +6,7 @@
 When opportunities are found, the bot executes trades to take advantage of them.
 The bot uses multiple threads to scan opportunities in parallel, and logs its activity to a file.</p>
 
-<h3>Prerequisites</h3>
+<h2>Prerequisites</h2>
 
 <ul>
 <li>Python 3</li>
@@ -14,7 +14,7 @@ The bot uses multiple threads to scan opportunities in parallel, and logs its ac
 <li>CCXT, a library for trading cryptocurrencies with support for a wide range of markets and merchant APIs</li>
 </ul>
 
-<h3>Configuration</h3>
+<h2>Configuration</h2>
 <p>The API/Secret keys can be changed in the <code>data/secrets.py</code> file. Do not disclose your API Key, Secret Key (HMAC), or Private Key (RSA) to anyone to avoid asset losses. You should treat them like your passwords.</p>
 
 <ul>
@@ -31,7 +31,7 @@ The bot uses multiple threads to scan opportunities in parallel, and logs its ac
       <li><code>REFRESH_INTERVAL</code>: The interval (in seconds) at which the bot refreshes its data and looks for new arbitrage opportunities.</li>
 </ul>
 
-<h3>Usage</h3>
+<h2>Usage</h2>
 <p>You can install the required package using <code>pip</code>:</p>
 
 <pre><code>pip install ccxt</code></pre>
