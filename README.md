@@ -1,5 +1,5 @@
 <h1>Arbitrage Bot</h1>
-
+<h2>TL;DR</h2>
 <p>This is a work sample of Cryptoexchange, Inc's older trading bot that allowed the company to take advantage of price differences via arbitrage on Binance, written in Python using the ccxt library.</p>
 
 <p>It runs in an infinite loop, continuously checking for arbitrage opportunities. 
